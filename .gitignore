@@ -1,0 +1,8 @@
+*.iml
+*.gradle
+AidlPractice/local.properties
+AidlPractice/.idea
+*.DS_Store
+AidlPractice/build
+AidlPractice/captures
+*.externalNativeBuild
