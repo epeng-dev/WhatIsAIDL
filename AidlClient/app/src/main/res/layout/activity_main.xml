@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.quber.aidlremotepractice.MainActivity">
+    <EditText
+        android:id="@+id/main_activity_edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/main_activity_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/main_activity_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최소공배수 구하기"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/main_activity_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소수인가요"
+        android:textSize="30sp"
+        />
+</LinearLayout>
